@@ -77,9 +77,6 @@ asset_path: /rails/public/assets
 builder:
   arch: amd64
 
-  context: ./store
-  dockerfile: ./store/Dockerfile
-
   # # Build image via remote server (useful for faster amd64 builds on arm64 computers)
   # remote: ssh://docker@docker-builder-server
   #
