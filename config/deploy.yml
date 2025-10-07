@@ -4,6 +4,12 @@ service: store
 # Name of the container image.
 image: apros7/store
 
+# sudo mkdir -p /var/kamal
+# # if your app container user is uid 1000 (Rails default), give it ownership:
+# sudo chown -R 1000:1000 /var/kamal
+# sudo chmod -R 775 /var/kamal
+# run_directory: /var/kamal
+
 # Deploy to these servers.
 servers:
   web:
