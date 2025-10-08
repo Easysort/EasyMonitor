@@ -8,7 +8,7 @@ image: apros7/store
 # # if your app container user is uid 1000 (Rails default), give it ownership:
 # sudo chown -R 1000:1000 /var/kamal
 # sudo chmod -R 775 /var/kamal
-run_directory: /var/kamal
+run_directory: /var/snap/docker/common/kamal
 
 # Deploy to these servers.
 servers:
